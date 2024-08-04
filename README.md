@@ -2,7 +2,7 @@
 
 저는 강의 + 공식문서를 참고하여 자바스크립트 ES6를 공부하였습니다.
 
-## 1. 강의 소개 : 노마드 코더
+## 1. 강의 소개 : 자바스크립의 ES6, ES7, ES8, ES9 버젼의 함수들에 배우는 이론 강의입니다.
 <div style="text-align:center;">
   <img width="800px" height="400px" src="images/nomadcorder.png" alt="노마드 코더 강의 이미지" />
 </div>
