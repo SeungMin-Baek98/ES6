@@ -9,6 +9,7 @@
 // button.addEventListener("click", () => {
 //   console.log(this);
 //   this.style.backgroundColor = "red";
+//   console.log(this.style.backgroundColor);
 // });
 
 // const handleClick = () => {
@@ -21,29 +22,29 @@
 
 // button.addEventListener("click", handleClick);
 
-// const nico = {
-//   name: "nico",
+// const seungmin = {
+//   name: "seungmin",
 //   age: 24,
 //   addYear: () => {
 //     this.age++;
 //   },
 // };
-// console.log(nico);
-// nico.addYear();
-// nico.addYear();
-// console.log(nico);
+// console.log(seungmin);
+// seungmin.addYear();
+// seungmin.addYear();
+// console.log(seungmin);
 
-// const nico = {
-//   name: "nico",
-//   age: 24,
-//   addYear() {
-//     this.age++;
-//   },
-// };
-// console.log(nico);
-// nico.addYear();
-// nico.addYear();
-// console.log(nico);
+const seungmin = {
+  name: "seungmin",
+  age: 24,
+  addYear() {
+    this.age++;
+  },
+};
+console.log(seungmin.age);
+seungmin.addYear();
+seungmin.addYear();
+console.log(seungmin.age);
 
 // const email = [
 //   "das@jasdnak.com",
