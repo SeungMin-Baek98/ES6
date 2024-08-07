@@ -88,8 +88,8 @@ addWelcome();
 ```javascript
 const addWelcome = () => {
   const div = `
-    <div class="hello">
-      <h1>Hello</h1>
+    <div>
+      <h1 class="hello-text" style="color:tomato">Hello</h1>
     </div>  `;
   wrapper.innerHTML = div;
   console.log(wrapper);
