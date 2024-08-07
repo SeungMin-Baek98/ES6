@@ -142,7 +142,12 @@
    - 예제:
      ```javascript
      let y = 20;
-     let y = 30; // SyntaxError: Identifier 'y' has already been declared
+     let y = 30;
+     console.log(y) // SyntaxError: Identifier 'y' has already been declared
+     -->
+     let y = 20;
+     y =30;
+     console.log(y) // 30
      ```
 
 3. **호이스팅과 Temporal Dead Zone (TDZ)**:
