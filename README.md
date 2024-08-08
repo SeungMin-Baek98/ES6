@@ -36,7 +36,7 @@
 
 - 1996년, 넷스케이프는 정보 기술 시스템 사용의 표준화를 목표로 하는 단체인 유럽 컴퓨터 제조업체 협회(ECMA International)에 JavaScript를 제출했습니다.
 
-- 이를 통해 JavaScript의 공식 사양인 ECMAScript 표준이 만들어졌습니다.
+- 이를 통해 JavaScript의 공식 사양인 `ECMAScript 표준`이 만들어졌습니다.
 
 - JavaScript의 인기가 높아지면서 라이브러리 및 프레임워크, V8(Chrome 구동)과 같은 전용 JS 엔진, 서버 측 환경의 개발이 촉진되었습니다.
 
