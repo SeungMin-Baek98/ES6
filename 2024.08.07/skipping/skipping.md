@@ -16,7 +16,7 @@ console.log(third); // 30
 console.log(fifth); // 50
 ```
 
-### ② `rest` 문법을 사용
+### ② `rest` 방식을 사용
 
 ```javascript
 const array = [1, 2, 3, 4, 5, 6];
