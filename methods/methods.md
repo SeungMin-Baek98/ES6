@@ -51,7 +51,7 @@
 
   [map() 공식문서](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
 
-- Array.prototype.find(): find()메서드는 제공된 배열에서 그 함수를 만족하는 `첫번째 요소`만 반환합니다. 만족하는 값이 없을 경우에는 `undefiend`로 반환됩니다.
+- **Array.prototype.find()**: find()메서드는 제공된 배열에서 그 함수를 만족하는 `첫번째 요소`만 반환합니다. 만족하는 값이 없을 경우에는 `undefiend`로 반환됩니다.
 
   ### 구문
 
