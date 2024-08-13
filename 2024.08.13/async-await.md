@@ -121,7 +121,7 @@ try {
 let y = z + 1; // z는 정의되지 않았으므로 ReferenceError 발생
 ```
 
-## 5.` Async / Await` 을 이용한 여러 비동기 작업 처리
+## 5. `Async / Await` 을 이용한 여러 비동기 작업 처리
 
 #### 예제
 
