@@ -4,6 +4,18 @@
 
 ## 사용법
 
+```javascript
+const asyncExample = async() => {
+  ...
+}
+
+// ---------- or ----------
+
+async function asyncExample(){
+ ...
+}
+```
+
 ## 1. **Async** 는 함수 선언 앞에 붙여서 그 함수를 비동기 함수로 만듭니다.
 
 ### 1-1. `Async` 함수는 항상 `Promise`를 반환합니다. 함수 내부에서 return하는 값은 자동으로`Promise.resolve()`로 감싸져 반환됩니다.
