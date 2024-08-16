@@ -38,7 +38,7 @@ console.log(add(10, 3)); // 13
 
 ```javascript
 const mul = function(a, b) {
-return a \* b;
+return a * b;
 }
 console.log(mul(2, 3)); // 6
 ```
