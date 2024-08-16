@@ -32,17 +32,6 @@ const add = function (a, b) {
 console.log(add(10, 3)); // 13
 ```
 
-## 2.2 명명된 함수 표현식
-
-### 예제:
-
-```javascript
-const mul = function(a, b) {
-return a * b;
-}
-console.log(mul(2, 3)); // 6
-```
-
 ## 화살표 함수 (Arrow Function)
 
 ES6에서 도입된 화살표 함수는 함수 표현식을 더 간결하게 작성할 수 있는 방법입니다.
