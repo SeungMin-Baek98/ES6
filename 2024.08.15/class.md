@@ -140,6 +140,7 @@ exportClass.sayHello(); // Hello, my name is 승민
 ```javascript
 class User {
   // User 클래스: 부모 클래스
+  // constructor(생성자)를 {}중괄호를 사용하여 객체 분할 구조 사용.
   constructor({ username, lastName, email, password }) {
     this.username = username;
     this.lastName = lastName;
@@ -163,6 +164,7 @@ class User {
   }
 }
 
+// User class에서 constructor(생성자) {}중괄호를 사용하여 객체 분할 구조를 통하여 변수를 쉽게 추출 할 수 있게된다.
 const exportUser = new User({
   username: "승민",
   lastName: "백",

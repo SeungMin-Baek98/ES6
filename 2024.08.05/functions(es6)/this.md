@@ -63,7 +63,7 @@ seungmin.addYear();
 console.log(seungmin.age); // 26
 ```
 
-##### 일반 함수의 경우 일반 함수는 호출된 방식에 따라 `this`가 결정됩니다. 객체의 메서드로 호출되면, `this`는 그 객체를 가리킵니다.여기서 `addYear` 메서드는 일반 함수로 정의되었습니다. `seungmin.addYear()`를 호출할 때, `this`는 `seungmin` 객체를 가리키기 때문에 `this.age`는 `seungmin.age`와 동일합니다. 따라서 `addYear 메서드`를 호출할 때마다 `seungmin.age`가 `1씩` 증가하게 됩니다.
+##### 일반 함수의 경우 일반 함수는 호출된 방식에 따라 `this`가 결정된다. 객체의 메서드로 호출되면, `this`는 그 객체를 가리킵니다.여기서 `addYear` 메서드는 일반 함수로 정의되었습니다. `seungmin.addYear()`를 호출할 때, `this`는 `seungmin` 객체를 가리키기 때문에 `this.age`는 `seungmin.age`와 동일합니다. 따라서 `addYear 메서드`를 호출할 때마다 `seungmin.age`가 `1씩` 증가하게 됩니다.
 
 ### 화살표 함수
 
